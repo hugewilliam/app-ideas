@@ -1,0 +1,24 @@
+{
+  "name": "app-ideas",
+  "version": "1.0.0",
+  "description": "![App Ideas Image](./app-ideas.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugewilliam/app-ideas.git"
+  },
+  "author": "hugewilliam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugewilliam/app-ideas/issues"
+  },
+  "homepage": "https://github.com/hugewilliam/app-ideas#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.5.2"
+  }
+}

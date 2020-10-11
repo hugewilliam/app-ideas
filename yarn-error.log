@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\william\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev babel-jest @babel/core @babel/preset-env
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\william\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\cmder;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;D:\app\Anaconda;D:\app\Anaconda\Scripts;D:\app\Anaconda\Library\bin;D:\app\anaconda3;D:\app\anaconda3\Library\mingw-w64\bin;D:\app\anaconda3\Library\usr\bin;D:\app\anaconda3\Library\bin;D:\app\anaconda3\Scripts;C:\Users\william\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip;C:\Users\william\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\william\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.1\bin;C:\Users\william\AppData\Local\hyper\app-3.0.2\resources\bin;D:\app\PyCharm 2020.1\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: registry.npmjs.org. is not in the cert's altnames: DNS:*.wix.com, DNS:*.wixsite.com, DNS:wix.com, DNS:wixsite.com
+      at Object.checkServerIdentity (tls.js:287:12)
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1511:27)
+      at TLSSocket.emit (events.js:315:20)
+      at TLSSocket._finishInit (_tls_wrap.js:936:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:710:12)
+
+npm manifest: 
+  {
+    "name": "app-ideas",
+    "version": "1.0.0",
+    "description": "![App Ideas Image](./app-ideas.png)",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hugewilliam/app-ideas.git"
+    },
+    "author": "hugewilliam",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/hugewilliam/app-ideas/issues"
+    },
+    "homepage": "https://github.com/hugewilliam/app-ideas#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
