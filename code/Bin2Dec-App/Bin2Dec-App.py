@@ -1,5 +1,6 @@
 # Projects/1-Beginner/Bin2Dec-App.md
-import re
+import re, sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import expecation
 
 TYPE_ERROR = 'type error!'
